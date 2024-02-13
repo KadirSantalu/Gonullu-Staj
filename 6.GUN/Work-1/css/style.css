@@ -1,0 +1,63 @@
+.first-h1{
+    font-size: 35px;
+    font-weight: 600
+}
+
+.div-icon{
+    width: 17%;
+}
+
+.first-p1{
+    font-size: 18px;
+}
+
+.rounded-1{
+    border-radius: 15px!important;
+}
+
+.bg-light{
+    background-color: #ced4da!important;
+}
+
+.div-icon-two{
+    width: 40%;
+}
+
+.first-h3{
+    font-size: 45px;
+    color: white;
+    font-weight: 700;
+}
+
+.div-icon-1{
+    width:20% !important;
+}
+
+.first-h4{
+    font-size: 27px;
+    font-weight: 600;
+}
+
+.rounded-2{
+    border-radius: 15px!important;
+}
+
+.first-h2{
+    font-weight: 700;
+    font-size: 27px;
+}
+
+.first-p2{
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.font-weight-bold{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.first-p3{
+    font-size: 22px;
+    font-weight: 400;
+}

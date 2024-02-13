@@ -1,0 +1,19 @@
+.article-card {
+    width: 100%;
+    background-color: #f8f9fa;
+    min-height: 900px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.article-card-mid{
+    padding:0 50px ;
+}
+
+.card{
+    padding:0 50px ;
+    background-color: black;
+}
+

@@ -1,0 +1,249 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.nav {
+    background-color: #343a40;
+    height: 55px;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    left: 113px;
+    top: 18px;
+}
+
+.logo-i {
+    font-size: 18px;
+    color: white;
+}
+
+.logo-title {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: white;
+    font-family: Verdana;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.header {
+    height: 400px;
+    position: relative;
+}
+
+.ortala {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ortala1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.ortala-w{
+    width: 600px;
+    height: 350px;
+    text-align: center;
+}
+
+.ortala-ic {
+    position: relative;
+    top: 50px;
+}
+
+.header-h {
+    color: #343a40;
+    font-size: 35px;
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+.header-p {
+    font-family: sans-serif;
+    margin-top: 10px;
+    color: #6c757d;
+    font-size: 19px;
+    font-weight: normal;
+}
+
+.button {
+    margin-top: 20px;
+    background-color: black;
+    margin-left: 150px;
+    width: 700px;
+}
+
+.button a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    font-family: sans-serif;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.a-1 {
+    float: left;
+    margin-right: 3px;
+    background-color: #6c757d;
+}
+
+.a-2 {
+    background-color: #007bff;
+    float: left;
+}
+
+.article-card{
+    width: 100%;
+    min-height: 900px;
+    background-color: #f8f9fa;
+    position: relative;
+}
+
+.article-card-mid{
+    width: 75%;
+    height: 600px;
+}
+
+.card{
+    background-color: white;
+    width: 32%;
+    height: 350px;
+    border-radius: 5px;
+    border: 0.1px solid #ddd;
+    float: left;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.card .img{
+    background-color: #6c757d;
+    width:100%;
+    height: 225px;
+    position: relative;
+}
+
+.card .img p{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.card-p{
+    width: 90%;
+    height: 80px;
+    text-align: left;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+.card-p p{
+    font-family: sans-serif;
+    word-spacing: 1px;
+    line-height: 19px;
+}
+
+.card-btn{
+    width: 90%;
+    margin-top: 10px;
+}
+
+.card-btn button{
+    color: #6c757d;
+    background-color: white;
+    padding: 5px 7px;
+    position: relative;
+    left: 25px;
+    bottom: 5px;
+    border:1px solid #6c757d;
+    cursor: pointer;
+    transition: color .2s ease-in-out;
+}
+
+.card-btn button:hover {
+    color: white;
+    background-color: #6c757d;
+}
+
+.card-btn button:nth-child(1){
+    float: left;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    border-right: none;
+
+}
+
+.card-btn button:nth-child(2){
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.card-btn p{
+    float: right;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #6c757d;
+}
+
+.footer{
+    width: 100%;
+    height: 225px;
+    background-color: white;
+    position: relative;
+}
+
+.a{
+    width: 70%;
+    margin-top: 20px;
+}
+
+.footer .ortala1 p:nth-child(1){
+    color: #6c757d;
+    float: left;
+    font-family: sans-serif;
+}
+
+.footer .ortala1 p:nth-child(2){
+    float: right;
+    font-family: sans-serif;
+}
+
+.footer .ortala1 a{
+    color: #007bff;
+    text-decoration: none;
+}
+
+.footer .ortala1 a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 800px) {
+    .card{
+        width: 100%;
+    }
+
+
+}
+
+.clear{
+    clear: both;
+}
+
+

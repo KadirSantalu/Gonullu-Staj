@@ -1,0 +1,25 @@
+
+.a{
+    font-size: 18px!important;
+    font-weight: 400;
+}
+
+.a:hover{
+    text-decoration: underline;
+}
+
+.b:hover{
+    text-decoration: underline!important;
+}
+
+.c:hover{
+    text-decoration: underline!important;
+}
+
+.w{
+    text-decoration: none;
+}
+
+.w:hover{
+    text-decoration: underline!important;
+}

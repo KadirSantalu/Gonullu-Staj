@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.cart {
+    background-color: #efefef;
+    padding: 15px 30px;
+    min-height: 300px;
+}
+
+.cart-img {
+    width: 64px;
+    height: 64px;
+    margin: 5px auto;
+}
+
+.cart-header {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cart-title {
+    margin-top: 10px;
+    text-align: center;
+}
+
+.cart-title a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+
+.contact-header {
+    padding:40px 0px;
+    text-align: center;
+}
+
+
+.name {
+    width: 49%;
+    padding: 15px 30px;
+    float: left;
+    margin-right: 2%;
+    background-color: #efefef;
+    border: none;
+    font-size: 18px;
+
+}
+
+.eposta {
+    background-color: #efefef;
+    width: 49%;
+    padding: 15px 30px;
+    border: none;
+    font-size: 18px;
+
+}
+
+.tel {
+    padding: 15px 30px;
+    width: 100%;
+    background-color: #efefef;
+    border: none;
+    font-size: 18px;
+}
+
+textarea {
+    width: 100%;
+    background-color: #efefef;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+}
+
+@media only screen and (max-width: 800px) {
+    .cart {
+        margin-bottom: 10px;
+    }
+
+    .name {
+        width: 100%;
+        margin-bottom: 15px;
+        font-size: 12px;
+    }
+
+    .eposta {
+        width: 100%;
+        font-size: 12px;
+
+    }
+
+    .tel{
+        font-size: 12px;
+
+    }
+
+    textarea{
+        font-size: 12px!important;
+    }
+
+    .contact-header {
+        padding: 25px 0;
+     
+    }
+
+   
+}

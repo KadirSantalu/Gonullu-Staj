@@ -1,0 +1,37 @@
+.bg-muted{
+    background-color: #f5f5f5!important;
+}
+
+body{
+    height: 100vh;
+}
+
+.row{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h4{
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.mt-1{
+    margin-top: .1px!important;
+}
+
+button{
+    font-weight: 500!important;
+    font-size: 19px!important;
+}
+
+.w-75{
+    width: 50% !important;
+}
+
+.input-text{
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+}

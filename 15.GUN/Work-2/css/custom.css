@@ -1,0 +1,17 @@
+.title-p{
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.title-p2{
+    font-size: 16px;
+}
+
+
+.bg-mor{
+    background-color: rgba(86, 61, 124, .15);
+}
+
+.border-mor{
+    border: 1px solid rgba(86, 61, 124, .2);
+}

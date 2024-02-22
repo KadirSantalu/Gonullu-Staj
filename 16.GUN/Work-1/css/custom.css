@@ -1,0 +1,21 @@
+body{
+    font-family: "Merriweather", serif;
+}
+
+.bg-secondaryy{
+    background-color: #a3a3b1;
+}
+
+.rounded-r{
+    border-radius: 50px;
+}
+
+.p-title{
+    font-size: 65px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.icon-size{
+    font-size: 13px!important;
+}

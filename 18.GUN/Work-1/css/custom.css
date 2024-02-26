@@ -1,0 +1,21 @@
+.table-title{
+    font-weight: 400;
+    font-size: 21px;
+}
+
+table thead tr th {
+    font-weight: 500;
+}
+
+.table {
+    font-size: 18px!important;
+    font-weight: 300;
+}
+
+.pp-2{
+    font-size: 14px;
+}
+
+input[type="checkbox"]{
+ padding: 5px!important;
+}

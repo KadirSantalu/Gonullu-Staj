@@ -1,0 +1,35 @@
+.bg-c-f{
+    background-color: #d0e3f4;
+}
+
+.title-number{
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.letter-spacing{
+    letter-spacing: -0.9px;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+.hava-durumu-p{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.hava-durumu-title{
+    font-size: 16px;
+    letter-spacing: -0.9px;
+}
+
+.hava-durumu-span{
+    font-size: 12px;
+    letter-spacing: -1px;
+    font-weight: 400;
+}
+.col-3{
+    width: 20% !important;
+}
